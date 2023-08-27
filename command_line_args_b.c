@@ -25,7 +25,7 @@
 /*Main func, here but I am changing the arg names*/
 int main(int a_count, char **a_vector)
 {
-    /*args count will start at max, then decrease until it is 0*/
+    /*args count will start at max, then decrease until it is at 0 index */
     while(--a_count > 0)
     {
         /* print 2 things:  
@@ -61,7 +61,8 @@ typedef struct
 {
   char *countries; 
   int  ammount_population; 
-} earth; 
-
+} earth;  /* this is a tructure, which it will have elements just real life. when a room is built 
+it has 1. 4 walls, 2. a certain amount of tubes connected to treatment facility,
+3. a certain amount of tubes connected to the sewage treatment plant, 4. Amount of cables and electric components and so on..
 
 
